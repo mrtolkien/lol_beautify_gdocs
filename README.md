@@ -13,13 +13,14 @@ This library is very much a work in progress. Any help is welcome!
 
 # Usage
 
-Inside the tags you can use champion's names, role names, and in the near future item names.
+`25<Braum>`
 
-`[[[name]]]` gets replaced by a 50pt portrait of the champion.
+`50<jungle>`
 
-`[[name]]` gets replaced by a 35pt portrait of the champion.
+Inside the tags you can use champion's names, role names, and in the near future item names. The number
+represents the picture size, in points.
 
-`[name]` gets replaced by a 20pt portrait of the champion.
+For role names, I use `top, jungle, mid, bot, supp`.
 
 ## Known issues
 
