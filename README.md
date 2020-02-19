@@ -17,7 +17,7 @@ This library is very much a work in progress. Any help is welcome!
 
 `50<jungle>`
 
-Inside the tags you can use champion's names, role names, and in the near future item names. The number
+Inside the tags you can use champion's names, role names, item names, and some custom tags. The number
 represents the picture size, in points.
 
 For role names, I use `top, jungle, mid, bot, supp`.
