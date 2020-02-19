@@ -22,6 +22,8 @@ represents the picture size, in points.
 
 For role names, I use `top, jungle, mid, bot, supp`.
 
+Other tags include `GOOD, BAD, and ARROW` at the moment. Don't hesitate to ping me if you want to add other ones!
+
 ## Known issues
 
 - By default, google docs transforms your ' in ’, and Riot (wrongly) uses the first one. I will need to make sure 
