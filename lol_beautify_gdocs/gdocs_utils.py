@@ -1,3 +1,4 @@
+from re import match, search
 import joblib
 import os.path
 from googleapiclient.discovery import build
@@ -27,3 +28,18 @@ def get_service():
         joblib.dump(credentials, token_location)
 
     return build('docs', 'v1', credentials=credentials)
+
+
+def get_document(service, document_id: str):
+    """
+    Parameter
+    ----------
+    document : str
+        url or id of the document; must have write access by the authenticated user
+    """
+    id_regex = "[a-zA-Z0-9-_]{44}"
+
+    if not match(id_regex, document_id):
+        document_id = search('[-\w]{25,}$', document_id)[0]
+
+    return service.documents().get(documentId=document_id).execute()
