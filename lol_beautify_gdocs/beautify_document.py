@@ -54,7 +54,7 @@ def beautify_document(document_descriptor: str):
 def create_image_request(match_content, match_position):
     # This splits on < and removes the last character which should be >
     # For example, for '20<Braum>', object_name will be 'Braum' and size will be 20
-    object_name = match_content.split('<')[1][:-1]
+    object_name = match_content.split('<')[1][:-1].replace('’', "'")
     size = int(match_content.split('<')[0])
 
     if object_name in dd.championByName.keys():
