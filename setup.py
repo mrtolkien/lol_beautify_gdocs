@@ -9,7 +9,7 @@ setup(
     author='Gary Mialaret',
     author_email='gary.mialaret@gmail.com',
     url='https://github.com/mrtolkien',
-    download_url='https://github.com/mrtolkien/lol_beautify_gdocs/archive/v0.1.tar.gz',
+    download_url='https://github.com/mrtolkien/lol_beautify_gdocs/archive/v0.1-alpha.tar.gz',
     keywords=['lol', 'gdocs'],
     install_requires=[
         'google-api-python-client',
