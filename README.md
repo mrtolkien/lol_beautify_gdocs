@@ -26,7 +26,4 @@ Other tags include `GOOD, BAD, and ARROW` at the moment. Don't hesitate to ping 
 
 ## Known issues
 
-- By default, google docs transforms your ' in ’, and Riot (wrongly) uses the first one. I will need to make sure 
-the code matches champion names properly.
-
-- Currently the module doesn't work for text that is inside inserted tables
+- Currently the module doesn't work for text that is inside tables.
