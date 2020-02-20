@@ -13,6 +13,10 @@ This library is very much a work in progress. Any help is welcome!
 
 # Usage
 
+Add tags formatted as `size<object>` in your google document.
+
+Examples:
+
 `25<Braum>`
 
 `50<jungle>`
@@ -23,6 +27,8 @@ represents the picture size, in points.
 For role names, I use `top, jungle, mid, bot, supp`.
 
 Other tags include `GOOD, BAD, and ARROW` at the moment. Don't hesitate to ping me if you want to add other ones!
+
+Afterwards, call `lol_beautify_gdocs.beautify_document(URL)` with your document's URL!
 
 ## Known issues
 
